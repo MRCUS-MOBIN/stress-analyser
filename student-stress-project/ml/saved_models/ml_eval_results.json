@@ -1,0 +1,35 @@
+{
+  "Ridge Regression": {
+    "RMSE": 2.3404,
+    "MAE": 1.7543,
+    "R2_Score": 0.9683
+  },
+  "Random Forest Regressor": {
+    "RMSE": 1.2916,
+    "MAE": 0.8539,
+    "R2_Score": 0.9903
+  },
+  "Gradient Boosting Regressor": {
+    "RMSE": 1.3593,
+    "MAE": 0.991,
+    "R2_Score": 0.9893
+  },
+  "Logistic Regression": {
+    "Accuracy": 0.9482,
+    "F1_Score": 0.9483,
+    "Precision": 0.9487,
+    "Recall": 0.9482
+  },
+  "Random Forest Classifier": {
+    "Accuracy": 0.9821,
+    "F1_Score": 0.9821,
+    "Precision": 0.9822,
+    "Recall": 0.9821
+  },
+  "Gradient Boosting Classifier": {
+    "Accuracy": 0.9839,
+    "F1_Score": 0.9839,
+    "Precision": 0.9839,
+    "Recall": 0.9839
+  }
+}

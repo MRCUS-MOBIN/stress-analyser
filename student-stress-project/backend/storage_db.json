@@ -1,0 +1,313 @@
+{
+  "students": [
+    {
+      "student_id": "STU_BF463E",
+      "name": "Alex Morgan",
+      "email": "alex.morgan@university.edu",
+      "department": "Computer Science & AI",
+      "academic_year": "3rd Year",
+      "_id": "students_20260825233000742834",
+      "created_at": "2026-08-25T23:30:00.742869"
+    }
+  ],
+  "assessments": [
+    {
+      "assessment_id": "ASM_50CE18E0",
+      "student_id": "STU_001",
+      "timestamp": "2026-08-25T23:30:12.622623",
+      "sleep_hours": 5.5,
+      "study_hours": 9.0,
+      "screen_time_hours": 7.5,
+      "physical_activity_mins": 15.0,
+      "academic_workload_score": 8.5,
+      "social_activity_hours": 1.5,
+      "anxiety_level": 7.0,
+      "mood_rating": 4.0,
+      "routine_consistency_score": 5.0,
+      "journal_entry": "Three major midterms coming up this week and I feel anxious.",
+      "stress_score": 83.9,
+      "severity_tier": "Severe",
+      "stress_nature": "Academic",
+      "stress_trajectory": "Sudden Escalation",
+      "major_factors": [
+        {
+          "factor": "Academic Workload & Deadlines",
+          "percentage": 30.8,
+          "impact_score": 36.0
+        },
+        {
+          "factor": "Exam & Performance Pressure",
+          "percentage": 21.4,
+          "impact_score": 25.0
+        },
+        {
+          "factor": "Sleep Deprivation & Disrupted Sleep",
+          "percentage": 15.8,
+          "impact_score": 18.5
+        },
+        {
+          "factor": "Excessive Screen Time",
+          "percentage": 13.2,
+          "impact_score": 15.5
+        },
+        {
+          "factor": "Lack of Physical Activity",
+          "percentage": 10.3,
+          "impact_score": 12.0
+        },
+        {
+          "factor": "Social Strain & Isolation",
+          "percentage": 8.5,
+          "impact_score": 10.0
+        }
+      ],
+      "xai_explanation": "The primary driver of stress is Academic Workload & Deadlines (30.8% contribution), followed by Exam & Performance Pressure (21.4%).",
+      "model_comparisons": {
+        "Multimodal_Fusion_DL": 83.9,
+        "Random_Forest_Baseline": 93.4,
+        "Gradient_Boosting_Baseline": 97.4
+      },
+      "_id": "assessments_20260825233012622959",
+      "created_at": "2026-08-25T23:30:12.622984"
+    },
+    {
+      "assessment_id": "ASM_60D54A6C",
+      "student_id": "STU_001",
+      "timestamp": "2026-08-25T23:35:17.465966",
+      "sleep_hours": 3.0,
+      "study_hours": 12.0,
+      "screen_time_hours": 7.0,
+      "physical_activity_mins": 0.0,
+      "academic_workload_score": 5.5,
+      "social_activity_hours": 1.5,
+      "anxiety_level": 2.5,
+      "mood_rating": 4.0,
+      "routine_consistency_score": 5.0,
+      "journal_entry": "i was soo tried",
+      "stress_score": 81.0,
+      "severity_tier": "Severe",
+      "stress_nature": "Sleep-related",
+      "stress_trajectory": "Decreasing",
+      "major_factors": [
+        {
+          "factor": "Sleep Deprivation & Disrupted Sleep",
+          "percentage": 43.4,
+          "impact_score": 39.8
+        },
+        {
+          "factor": "Lack of Physical Activity",
+          "percentage": 19.6,
+          "impact_score": 18.0
+        },
+        {
+          "factor": "Excessive Screen Time",
+          "percentage": 14.2,
+          "impact_score": 13.0
+        },
+        {
+          "factor": "Social Strain & Isolation",
+          "percentage": 10.9,
+          "impact_score": 10.0
+        },
+        {
+          "factor": "Academic Workload & Deadlines",
+          "percentage": 6.5,
+          "impact_score": 6.0
+        },
+        {
+          "factor": "Exam & Performance Pressure",
+          "percentage": 5.4,
+          "impact_score": 5.0
+        }
+      ],
+      "xai_explanation": "The primary driver of stress is Sleep Deprivation & Disrupted Sleep (43.4% contribution), followed by Lack of Physical Activity (19.6%).",
+      "model_comparisons": {
+        "Multimodal_Fusion_DL": 81.0,
+        "Random_Forest_Baseline": 91.2,
+        "Gradient_Boosting_Baseline": 94.5
+      },
+      "_id": "assessments_20260825233517466399",
+      "created_at": "2026-08-25T23:35:17.466426"
+    },
+    {
+      "assessment_id": "ASM_F09D1E1D",
+      "student_id": "STU_001",
+      "timestamp": "2026-08-25T23:47:52.040019",
+      "sleep_hours": 8.0,
+      "study_hours": 7.0,
+      "screen_time_hours": 2.0,
+      "physical_activity_mins": 60.0,
+      "academic_workload_score": 3.0,
+      "social_activity_hours": 1.5,
+      "anxiety_level": 2.5,
+      "mood_rating": 4.0,
+      "routine_consistency_score": 5.0,
+      "journal_entry": "",
+      "stress_score": 35.6,
+      "severity_tier": "Moderate",
+      "stress_nature": "Sleep-related",
+      "stress_trajectory": "Decreasing",
+      "major_factors": [
+        {
+          "factor": "Social Strain & Isolation",
+          "percentage": 30.3,
+          "impact_score": 10.0
+        },
+        {
+          "factor": "Academic Workload & Deadlines",
+          "percentage": 18.2,
+          "impact_score": 6.0
+        },
+        {
+          "factor": "Sleep Deprivation & Disrupted Sleep",
+          "percentage": 15.2,
+          "impact_score": 5.0
+        },
+        {
+          "factor": "Exam & Performance Pressure",
+          "percentage": 15.2,
+          "impact_score": 5.0
+        },
+        {
+          "factor": "Excessive Screen Time",
+          "percentage": 12.1,
+          "impact_score": 4.0
+        },
+        {
+          "factor": "Lack of Physical Activity",
+          "percentage": 9.1,
+          "impact_score": 3.0
+        }
+      ],
+      "xai_explanation": "The primary driver of stress is Social Strain & Isolation (30.3% contribution), followed by Academic Workload & Deadlines (18.2%).",
+      "model_comparisons": {
+        "Multimodal_Fusion_DL": 35.6,
+        "Random_Forest_Baseline": 54.8,
+        "Gradient_Boosting_Baseline": 51.2
+      },
+      "_id": "assessments_20260825234752040604",
+      "created_at": "2026-08-25T23:47:52.040640"
+    },
+    {
+      "assessment_id": "ASM_134196E3",
+      "student_id": "STU_001",
+      "timestamp": "2026-08-26T00:01:54.096759",
+      "sleep_hours": 6.0,
+      "study_hours": 2.0,
+      "screen_time_hours": 6.0,
+      "physical_activity_mins": 0.0,
+      "academic_workload_score": 8.0,
+      "social_activity_hours": 1.5,
+      "anxiety_level": 4.0,
+      "mood_rating": 4.0,
+      "routine_consistency_score": 5.0,
+      "journal_entry": "Terrified about upcoming campus placement interviews and job application deadlines.",
+      "stress_score": 82.0,
+      "severity_tier": "Severe",
+      "stress_nature": "Performance",
+      "stress_trajectory": "Decreasing",
+      "major_factors": [
+        {
+          "factor": "Academic Workload & Deadlines",
+          "percentage": 38.5,
+          "impact_score": 32.0
+        },
+        {
+          "factor": "Lack of Physical Activity",
+          "percentage": 21.6,
+          "impact_score": 18.0
+        },
+        {
+          "factor": "Sleep Deprivation & Disrupted Sleep",
+          "percentage": 17.1,
+          "impact_score": 14.2
+        },
+        {
+          "factor": "Social Strain & Isolation",
+          "percentage": 12.0,
+          "impact_score": 10.0
+        },
+        {
+          "factor": "Exam & Performance Pressure",
+          "percentage": 6.0,
+          "impact_score": 5.0
+        },
+        {
+          "factor": "Excessive Screen Time",
+          "percentage": 4.8,
+          "impact_score": 4.0
+        }
+      ],
+      "xai_explanation": "The primary driver of stress is Academic Workload & Deadlines (38.5% contribution), followed by Lack of Physical Activity (21.6%).",
+      "model_comparisons": {
+        "Multimodal_Fusion_DL": 82.0,
+        "Random_Forest_Baseline": 72.4,
+        "Gradient_Boosting_Baseline": 78.5
+      },
+      "_id": "assessments_20260826000154097236",
+      "created_at": "2026-08-26T00:01:54.097264"
+    },
+    {
+      "assessment_id": "ASM_3052746E",
+      "student_id": "STU_001",
+      "timestamp": "2026-08-26T15:03:04.762234",
+      "sleep_hours": 5.5,
+      "study_hours": 8.0,
+      "screen_time_hours": 7.0,
+      "physical_activity_mins": 15.0,
+      "academic_workload_score": 8.5,
+      "social_activity_hours": 1.5,
+      "anxiety_level": 7.5,
+      "mood_rating": 4.0,
+      "routine_consistency_score": 5.0,
+      "journal_entry": "Only slept 4 hours last night due to loud dorms. Exhausted and struggling to concentrate.",
+      "stress_score": 82.3,
+      "severity_tier": "Severe",
+      "stress_nature": "Time-pressure",
+      "stress_trajectory": "Sudden Escalation",
+      "major_factors": [
+        {
+          "factor": "Academic Workload & Deadlines",
+          "percentage": 30.4,
+          "impact_score": 36.0
+        },
+        {
+          "factor": "Exam & Performance Pressure",
+          "percentage": 24.3,
+          "impact_score": 28.8
+        },
+        {
+          "factor": "Sleep Deprivation & Disrupted Sleep",
+          "percentage": 15.6,
+          "impact_score": 18.5
+        },
+        {
+          "factor": "Excessive Screen Time",
+          "percentage": 11.0,
+          "impact_score": 13.0
+        },
+        {
+          "factor": "Lack of Physical Activity",
+          "percentage": 10.1,
+          "impact_score": 12.0
+        },
+        {
+          "factor": "Social Strain & Isolation",
+          "percentage": 8.5,
+          "impact_score": 10.0
+        }
+      ],
+      "xai_explanation": "The primary driver of stress is Academic Workload & Deadlines (30.4% contribution), followed by Exam & Performance Pressure (24.3%).",
+      "model_comparisons": {
+        "Multimodal_Fusion_DL": 82.3,
+        "Random_Forest_Baseline": 96.6,
+        "Gradient_Boosting_Baseline": 95.5
+      },
+      "_id": "assessments_20260826150304763065",
+      "created_at": "2026-08-26T15:03:04.763109"
+    }
+  ],
+  "stress_profiles": [],
+  "recovery_logs": [],
+  "effectiveness_profiles": {}
+}

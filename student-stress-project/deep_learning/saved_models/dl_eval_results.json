@@ -1,0 +1,15 @@
+{
+  "Multimodal_Fusion_Severity_Regression": {
+    "RMSE": 14.6718,
+    "MAE": 11.689,
+    "R2_Score": -0.2592
+  },
+  "Multimodal_Fusion_Stress_Nature_Classification": {
+    "Accuracy": 0.5125,
+    "F1_Score": 0.5001
+  },
+  "Multimodal_Fusion_Stress_Trajectory_Classification": {
+    "Accuracy": 0.425,
+    "F1_Score": 0.4299
+  }
+}

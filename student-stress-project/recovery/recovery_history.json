@@ -1,0 +1,110 @@
+{
+  "logs": [
+    {
+      "log_id": "REC_20260825230534_STU_001",
+      "student_id": "STU_001",
+      "activity_id": "rec_box_breathing",
+      "activity_title": "4-7-8 Deep Diaphragmatic Box Breathing",
+      "timestamp": "2026-08-25T23:05:34.063490",
+      "pre_stress_score": 75.0,
+      "post_stress_score": 48.0,
+      "stress_reduction": 27.0,
+      "percentage_reduction": 36.0,
+      "duration_mins": 10,
+      "notes": ""
+    },
+    {
+      "log_id": "REC_20260825230837_STU_001",
+      "student_id": "STU_001",
+      "activity_id": "rec_box_breathing",
+      "activity_title": "4-7-8 Deep Diaphragmatic Box Breathing",
+      "timestamp": "2026-08-25T23:08:37.577159",
+      "pre_stress_score": 75.0,
+      "post_stress_score": 48.0,
+      "stress_reduction": 27.0,
+      "percentage_reduction": 36.0,
+      "duration_mins": 10,
+      "notes": ""
+    },
+    {
+      "log_id": "REC_20260825233000_STU_001",
+      "student_id": "STU_001",
+      "activity_id": "rec_pomodoro",
+      "activity_title": "Structured Pomodoro Study & Break Routine",
+      "timestamp": "2026-08-25T23:30:00.806931",
+      "pre_stress_score": 75.0,
+      "post_stress_score": 55.0,
+      "stress_reduction": 20.0,
+      "percentage_reduction": 26.7,
+      "duration_mins": 30,
+      "notes": "Felt much more focused"
+    },
+    {
+      "log_id": "REC_20260825233012_STU_001",
+      "student_id": "STU_001",
+      "activity_id": "rec_pomodoro",
+      "activity_title": "Structured Pomodoro Study & Break Routine",
+      "timestamp": "2026-08-25T23:30:12.628281",
+      "pre_stress_score": 75.0,
+      "post_stress_score": 55.0,
+      "stress_reduction": 20.0,
+      "percentage_reduction": 26.7,
+      "duration_mins": 30,
+      "notes": "Felt much more focused"
+    },
+    {
+      "log_id": "REC_20260825234827_STU_001",
+      "student_id": "STU_001",
+      "activity_id": "rec_pomodoro",
+      "activity_title": "Structured Pomodoro Study & Break Routine",
+      "timestamp": "2026-08-25T23:48:27.968050",
+      "pre_stress_score": 75.0,
+      "post_stress_score": 48.0,
+      "stress_reduction": 27.0,
+      "percentage_reduction": 36.0,
+      "duration_mins": 20,
+      "notes": ""
+    },
+    {
+      "log_id": "REC_20260826000251_STU_001",
+      "student_id": "STU_001",
+      "activity_id": "rec_cardio_exercise",
+      "activity_title": "30-Min Aerobic Physical Activity",
+      "timestamp": "2026-08-26T00:02:51.353550",
+      "pre_stress_score": 90.5,
+      "post_stress_score": 48.0,
+      "stress_reduction": 42.5,
+      "percentage_reduction": 47.0,
+      "duration_mins": 20,
+      "notes": ""
+    }
+  ],
+  "student_profiles": {
+    "STU_001": {
+      "rec_box_breathing": {
+        "activity_title": "4-7-8 Deep Diaphragmatic Box Breathing",
+        "times_completed": 2,
+        "total_reduction": 54.0,
+        "average_reduction": 27.0,
+        "average_percentage_improvement": 36.0,
+        "effectiveness_score": 100.0
+      },
+      "rec_pomodoro": {
+        "activity_title": "Structured Pomodoro Study & Break Routine",
+        "times_completed": 3,
+        "total_reduction": 67.0,
+        "average_reduction": 22.33,
+        "average_percentage_improvement": 29.8,
+        "effectiveness_score": 100.0
+      },
+      "rec_cardio_exercise": {
+        "activity_title": "30-Min Aerobic Physical Activity",
+        "times_completed": 1,
+        "total_reduction": 42.5,
+        "average_reduction": 42.5,
+        "average_percentage_improvement": 47.0,
+        "effectiveness_score": 100.0
+      }
+    }
+  }
+}
